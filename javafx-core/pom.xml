@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>br.edu</groupId>
-		<artifactId>javafx</artifactId>
+		<artifactId>javafx-parent</artifactId>
 		<version>1.0.0</version>
 	</parent>
 	<artifactId>javafx-core</artifactId>
