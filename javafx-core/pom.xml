@@ -8,11 +8,27 @@
 	</parent>
 	<artifactId>javafx-core</artifactId>
 	<packaging>jar</packaging>
-	<dependencies>
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>javafx</artifactId>
-			<version>1.8.11</version>
-		</dependency>
-	</dependencies>
+	
+<!-- 	<dependencies> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.oracle</groupId> -->
+<!-- 			<artifactId>javafx</artifactId> -->
+<!-- 			<version>1.8.11</version> -->
+<!-- 		</dependency> -->
+<!-- 	</dependencies> -->
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.zenjava</groupId>
+				<artifactId>javafx-maven-plugin</artifactId>
+				<version>8.8.3</version>
+				<configuration>
+					<vendor>CEF</vendor>
+					<mainClass>br.edu.javafx.ui.LoginApp</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

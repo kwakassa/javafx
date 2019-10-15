@@ -8,8 +8,9 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>javafx-install</module>
+<!-- 		<module>javafx-install</module> -->
 		<module>javafx-core</module>
+		<module>javafx-casacod</module>
 	</modules>
 
 	<build>
